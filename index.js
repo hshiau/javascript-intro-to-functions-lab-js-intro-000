@@ -4,8 +4,20 @@ function shout(low) {
   }
 }
 
-function whisper (upper) {
+function whisper(upper) {
   if (upper === "HELLO") {
     return "hello"
   }
+}
+
+function logShout(low) {
+  console.log("HELLO")
+}
+
+function logWhisper(high) {
+  console.log("hello")
+}
+
+function sayHiToGradma(string) {
+  
 }
